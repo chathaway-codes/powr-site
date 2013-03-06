@@ -137,7 +137,11 @@ INSTALLED_APPS = (
     'mptt',
     'zinnia',
     'team',
+    'captcha_comment',
+    'captcha',
 )
+
+COMMENTS_APP = 'captcha_comment'
 
 TEMPLATE_CONTEXT_PROCESSORS = (
   'django.contrib.auth.context_processors.auth',

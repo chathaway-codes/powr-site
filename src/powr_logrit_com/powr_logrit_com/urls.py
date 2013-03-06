@@ -21,6 +21,8 @@ urlpatterns = patterns('',
 
     url(r'^blog/', include('zinnia.urls')),
     url(r'^comments/', include('django.contrib.comments.urls')), 
+
+    url(r'^captcha/', include('captcha.urls')),
 )
 
 if settings.DEBUG:
