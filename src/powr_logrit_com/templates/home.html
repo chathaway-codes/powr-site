@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block nav-home %}
+class="active"
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+        <h1>Power Outlet for Wireless Reporting</h1>
+        <p class="lead">The POW-R project aims to produce a low cost, low powered, device that will allow home owners to track their power consumption on a per-device basis. The hope is that by allowing home owners to see where all their energy is going, they can take steps to disable or replace the most inefficient offenders.</p>
+    </div>
+
+    <hr>
+
+    <div class="row-fluid marketing">
+        <div class="span6">
+            <h4>People</h4>
+            <p>This project has been conceptualized, designed, and implemented by a team of students at Vermont Technical College as part of their graduate requirements. The students include Grace De Geus, Charles Hathaway, Forest Immel, Nate Pickett, and Niloc Quimby.</p>
+            <h4>Target Audience</h4>
+            <p>Officially, the target audience for this project is our professor, Dr. Chenqjun Wang, the project is meant for anyone who either cares about helping the environment, or who has an electric bill to pay.</p>
+        </div>
+        <div class="span6">
+            <h4>Quick Overview</h4>
+            <p>The goal of the POW-R project is to create a system that will allow homeowners to have more control over their electric bills and utilties. It will allow the homeowners to monitor their devices, and eventually shutdown the devices at a specified time or when some condition has been met. The project is being design with this small goal, but with a design that would facilitate a more ambitious project (a Home Automation Framework, if you will).
+            <h4>Technology</h4>
+            <p>This project uses a number of open source tools to faciliate development. For more details, read the design document, but as a quick example, this site uses Twitter Bootstrap and the Django web framework.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        <p>&copy; POW-R Project 2013</p>
+    </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block nav-project %}
+    class="active"
+{% endblock %}
+
+{% block content %}
+    <h2>Files</h2>
+    {% for o in object_list %}
+        <hr>
+        <h4>{{ o.title }}</h4>
+        <p>{{ o.description|truncatewords:25 }}</p>
+        <a href="{{ MEDIA_URL }}{{ o.file }}">Download</a>
+    {% endfor %}
+{% endblock %}

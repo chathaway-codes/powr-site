@@ -1,2 +1,11 @@
-Django>=1.4.2
+BeautifulSoup==3.2.1
+Django==1.5
+django-blog-zinnia==0.12.3
 git+git://github.com/chuck211991/django_boostrap.git
+django-mptt==0.5.5
+django-tagging==0.3.1
+django-xmlrpc==0.1.4
+PIL==1.1.7
+pyparsing==1.5.7
+pytz==2012j
+wsgiref==0.1.2
